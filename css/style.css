@@ -1,0 +1,119 @@
+
+body{
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.section_one {
+    width: 50%;
+    height: 100%;
+    background-color: grey;
+    margin: 0;
+    position: absolute;
+    right: 0;
+}
+
+.section_two {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    margin: 0;
+    position: absolute;
+    left: 0;
+}
+
+.Info_Table{
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    height: 85%;
+    width: 85%;
+    background-color: grey;
+    position: absolute;
+
+}
+
+.Ad_Table{
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    height: 50%;
+    width: 75%;
+    background-color: lightgray;
+    position: absolute;
+    box-shadow: 5px 10px 8px #888888;
+
+
+}
+
+#InfoHeader{
+
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: 10%;
+    font-size: 54px;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+ol{
+    position: relative;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 1%;
+    margin: 0;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 24px;
+}
+li{
+    margin-bottom: 25px;
+}
+#button{
+    background-color: #008CBA;
+    border-color: #008CBA;
+    border-radius: 30px;
+    font-size: 20px;
+}
+#sloth{
+    position: relative;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 100%;
+    height: 90%;
+}
+#sloth_emoji{
+    position: relative;
+    bottom: 5%;
+    left: 5%;
+    transform: translate(-5%, 0%);
+    width: 10%;
+    height: 10%;
+}
+#SeeMore{
+    background-color: rgba(0,0,0,.2);
+    position: relative;
+    height: 7%;
+    width: 15%;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+p{
+    margin: 0;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
