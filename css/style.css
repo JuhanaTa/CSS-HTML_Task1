@@ -83,7 +83,7 @@ li{
 }
 #sloth{
     position: relative;
-    top: 0%;
+    top: 0;
     left: 50%;
     transform: translate(-50%, 0%);
     width: 100%;
@@ -94,7 +94,7 @@ li{
     bottom: 5%;
     left: 5%;
     transform: translate(-5%, 0%);
-    width: 10%;
+    width: 8%;
     height: 10%;
 }
 #SeeMore{
@@ -102,18 +102,28 @@ li{
     position: relative;
     height: 7%;
     width: 15%;
-    top: 98%;
+    top: 99%;
     left: 50%;
-    transform: translate(-50%, -100%);
+    transform: translate(-50%, -99%);
+    border-radius: 40px;
 }
-p{
+#MoreSloths{
     margin: 0;
     text-align: center;
     position: relative;
-    top: 50%;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#DownArrow{
+    margin: 0;
+    text-align: center;
+    position: relative;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 15px;
+    font-size: 25px;
     font-family: 'Source Sans Pro', sans-serif;
-
 }
